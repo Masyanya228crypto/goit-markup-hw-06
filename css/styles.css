@@ -1050,8 +1050,8 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 288px;
     max-height: 95vh;
-    max-width: 95vw;
     border-radius: 4px;
     padding-top: 72px;
     padding-bottom: 24px;
@@ -1210,12 +1210,10 @@ a {
 }
 
 .popup-checkbox-label {
-    font-size: 12px;
+     font-size: 12px;
     line-height: 1.17;
+    color: #8E8F99;
     letter-spacing: 0.04em;
-    color: #8e8f99;
-    display: flex;
-    align-items: center;
 }
 
 .popup-checkbox-span {
@@ -1229,13 +1227,15 @@ a {
     border-radius: 2px;
     fill: transparent;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     flex-shrink: 0;
 }
 .popup-button {
     min-width: 169px;
     height: 56px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
@@ -1247,7 +1247,8 @@ a {
     font-style: medium;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
     cursor: pointer;
     font-weight: 500;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1264,7 +1265,7 @@ a {
     border-color: #404bbf;
 }
 
-popup-checkbox-span {
+.popup-checkbox-span {
     color: #4d5ae5;
     text-decoration: underline;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
