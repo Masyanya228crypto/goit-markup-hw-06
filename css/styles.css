@@ -1051,7 +1051,7 @@ a {
     top: 50%;
     left: 50%;
     width: 288px;
-    max-height: 95vh;
+   height: auto;
     border-radius: 4px;
     padding-top: 72px;
     padding-bottom: 24px;
@@ -1277,4 +1277,5 @@ a {
 }
 .checkbox-a {
  color: #4D5AE5;
+  text-decoration: underline;
 }
